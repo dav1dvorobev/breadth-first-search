@@ -1,0 +1,10 @@
+[package]
+name = "bfs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.94"
+chrono = "0.4.38"
+rand = "0.8.5"
+tokio = { version = "1.42.0", features = ["full"] }
